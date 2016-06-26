@@ -85,7 +85,7 @@ body {
 
 #sobrem {
 	text-align: center;
-	padding: 30px 0px 30px;
+	padding: 30px 0px 70px;
 	background-color: whitesmoke;
 	font-size: 20px;
 }
@@ -134,7 +134,7 @@ body {
 	display: inline-block;
 	margin:25px 10px;
 	background-color: black;
-	padding: 0 40px;
+	padding: 0 30px;
 	border-radius: 5px;
 }
 
@@ -164,6 +164,7 @@ body {
 	}
 
 	#titulo {
+		width: 1400px;
 		padding-bottom: 170px;
 	}
 
@@ -183,9 +184,9 @@ body {
 	}
 
 	.principal nav a {
-		padding: 10px 15px;
+		padding: 15px 15px;
 		margin-left: 15px;
-		color: black;
+		font-size: 20px;
 	}
 
 	#subti {
