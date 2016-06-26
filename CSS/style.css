@@ -5,6 +5,29 @@ body {
 	font-style: 15px;
 }
 
+.up a {
+	background-color:black;
+	position: fixed;
+	opacity: .3;
+	right: 0;
+	bottom:0;
+	color: white;
+	text-align: center;
+	font-size:60px;
+	margin:30px 50px;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	line-height: 65px;
+	webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+.up a:hover {
+	opacity: 1;
+}
+
 .principal{
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/fondo.png') no-repeat center top;
 	background-size:cover;
