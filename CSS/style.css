@@ -157,7 +157,7 @@ body {
 }
 
 
-@media(min-width:880px) {
+@media(min-width:450px) {
 	body{
 		font-style: 20px;
 		line-height: 1.6;
