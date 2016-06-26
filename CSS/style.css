@@ -157,3 +157,98 @@ body {
 }
 
 
+@media (min-width:900px) {
+	body{
+		font-style: 20px;
+		line-height: 1.6;
+	}
+
+	#titulo {
+		padding-bottom: 170px;
+	}
+
+	#titulo .nombre{
+		margin-top: 30px;
+		float: left;
+		text-align: center;
+	}
+
+	.principal{
+		margin-bottom: 0;
+	}
+
+	.principal nav{
+		float: right;
+		margin-top: 75px;
+	}
+
+	.principal nav a {
+		padding: 10px 15px;
+		margin-left: 15px;
+		color: black;
+	}
+
+	#subti {
+		padding-bottom: 140px;
+
+	}
+
+	#subti h1 {
+		font-size: 60px;
+		padding-top: 70px;
+	}
+
+	#subti p {
+		font-size: 25px;
+		padding-bottom: 100px;
+	}
+
+	#subti img {
+		padding-top: 50px;
+		padding-bottom: 10px;
+		
+	}
+
+	#sobrem {
+		text-align: center;
+		background-color: whitesmoke;
+		font-size: 25px;
+		margin-top: 0;
+	}
+
+	#sobrem .box{
+		margin:0px 40px;
+		width: 500px;
+	}
+
+	#sobrem img {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 40px;
+	}
+
+	#proyec{
+		text-align: center;	
+		margin-top: 65px;
+		margin-bottom: 100px; 
+	}
+
+	#proyec .box {
+		margin:0px 40px;
+		width: 500px;
+	}
+
+	#proyec img {
+		width: 400px;
+		height: 200px;
+	}
+
+	.conte{
+		width:1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+
