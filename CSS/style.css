@@ -5,7 +5,7 @@ body {
 	font-style: 15px;
 }
 
-.up a {
+.upbo a {
 	background-color:black;
 	position: fixed;
 	opacity: .3;
@@ -29,6 +29,7 @@ body {
 }
 
 .principal{
+
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/fondo.png') no-repeat center top;
 	background-size:cover;
 	color: #C0C0C0;
@@ -37,6 +38,7 @@ body {
 }
 
 #titulo {
+	width: 400px;
 	line-height: 0;
 	padding: 4px;
 	text-decoration: none;
@@ -126,30 +128,10 @@ body {
 	border-radius: 4px;
 }
 
-#social a {
-	background-color: black;
-	display: inline-block;
-	font-weight: bold;
-	font-size:30px;
-	margin:0 25px;
-	color:white;
-	border-radius: 50%;
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-}
-
-#social a:hover {
-	background-color:#A00000;
-}
-
 #proyec{
 	text-align: center;	
-	padding-top:10px; 
-	margin: 30px 0 50px;
+	background-color: white;
+	padding: 70px 0;
 }
 
 #proyec .box {
@@ -171,10 +153,37 @@ body {
 #proyec img:hover{
 	opacity: .7;
 }
+#social {
+	text-align: center;
+	padding: 50px 0;
+	background-color: #303030;
+	font-size: 20px;
+	color: white;
+}
+#social a {
+
+	background-color: #FFCC33;
+	display: inline-block;
+	font-weight: bold;
+	font-size:35px;
+	margin:25px;
+	color:#303030;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	line-height: 75px;
+	webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#social a:hover {
+	background-color:#0099FF;
+}
 
 
 .conte{
-	width:400px;
+	width:700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -187,7 +196,7 @@ body {
 	}
 
 	#titulo {
-		width: 1400px;
+		width: 1300px;
 		padding-bottom: 170px;
 	}
 
@@ -245,7 +254,6 @@ body {
 	}
 
 	#sobrem .box{
-		margin:0px 40px;
 		width: 500px;
 	}
 
@@ -257,13 +265,12 @@ body {
 
 	#proyec{
 		text-align: center;	
-		margin-top: 65px;
-		margin-bottom: 100px; 
 	}
 
 	#proyec h1 {
 		font-size: 40px;
 		margin-bottom: 50px;
+		margin-top: 0;
 	}
 
 	#proyec .box {
@@ -276,8 +283,14 @@ body {
 		height: 200px;
 	}
 
+	#social {
+		padding: 60px 0 75px;
+		background-color: #303030;
+		font-size: 30px;
+	}
+
 	.conte{
-		width:1200px;
+		width:1600px;
 		margin-left: auto;
 		margin-right: auto;
 	}
